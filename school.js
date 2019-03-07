@@ -66,15 +66,117 @@ function show4() {
     u1.style.display="none";
     u2.style.display="block";
 }
-function banner() {
-    var ban=document.getElementById("banner");
-    var ban1=document.getElementById("banner1");
-    ban.style.display="none";
-    ban1.style.display="block";
+
+function  menu11() {
+    var menu=document.getElementById("s1");
+    menu.style.display="block";
+    menu20();
+    menu30();
+    menu40();
+    menu50();
+    menu60();
+    menu70();
 }
-function banner1() {
-    var ban=document.getElementById("banner");
-    var ban1=document.getElementById("banner1");
-    ban.style.display="block";
-    ban1.style.display="none";
+function  menu10() {
+    var menu=document.getElementById("s1");
+    menu.style.display="none";
+}
+function  menu21() {
+    var menu=document.getElementById("s2");
+    menu.style.display="block";
+    menu10();
+    menu30();
+    menu40();
+    menu50();
+    menu60();
+    menu70();
+}
+function  menu20() {
+    var menu=document.getElementById("s2");
+    menu.style.display="none";
+}
+function  menu31() {
+    var menu=document.getElementById("s3");
+    menu.style.display="block";
+    menu10();
+    menu20();
+    menu40();
+    menu50();
+    menu60();
+    menu70();
+}
+function  menu30() {
+    var menu=document.getElementById("s3");
+    menu.style.display="none";
+}
+function  menu41() {
+    var menu=document.getElementById("s4");
+    menu.style.display="block";
+    menu10();
+    menu20();
+    menu30();
+    menu50();
+    menu60();
+    menu70();
+}
+function  menu40() {
+    var menu=document.getElementById("s4");
+    menu.style.display="none";
+}
+function  menu51() {
+    var menu=document.getElementById("s5");
+    menu.style.display="block";
+    menu10();
+    menu20();
+    menu30();
+    menu40();
+    menu60();
+    menu70();
+}
+function  menu50() {
+    var menu=document.getElementById("s5");
+    menu.style.display="none";
+}
+function  menu61() {
+    var menu=document.getElementById("s6");
+    menu.style.display="block";
+    menu10();
+    menu20();
+    menu30();
+    menu40();
+    menu50();
+    menu70();
+}
+function  menu60() {
+    var menu=document.getElementById("s6");
+    menu.style.display="none";
+}
+function  menu71() {
+    var menu=document.getElementById("s7");
+    menu.style.display="block";
+    menu10();
+    menu20();
+    menu30();
+    menu40();
+    menu50();
+    menu60();
+}
+function  menu70() {
+    var menu=document.getElementById("s7");
+    menu.style.display="none";
+}
+
+function f(e) {
+    var x=e.clientX;
+    var y=e.clientY;
+    if (y<80 || y>380){
+        menu10();
+        menu20();
+        menu30();
+        menu40();
+        menu50();
+        menu60();
+        menu70();
+     }
+
 }
