@@ -114,10 +114,10 @@
 .trans_image_box {
     width: 8880px;
     height: 370px;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;/* Safari and Chrome （兼容 Safari　Chrome 浏览器）*/
+    -moz-transition: all 1s ease-in-out;/* Firefox 4 （兼容 老版本火狐 浏览器）*/
+    -o-transition: all 1s ease-in-out;/* Opera （兼容 Opera浏览器）*/
+    transition: all 1s ease-in-out;/*transition代表css3中的过渡，可以使元素从一种样式逐渐改变为另一种的效果。*/
 }
 .trans_image {
     width: 980px;
